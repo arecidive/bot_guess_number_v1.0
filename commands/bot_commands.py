@@ -1,4 +1,4 @@
-from bot_additional import *
+from additional.bot_additional import *
 
 API_BOT: str = ''
 bot: Bot = Bot(token=API_BOT)

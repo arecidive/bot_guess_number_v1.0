@@ -31,7 +31,7 @@ def write_stats(stat: Dict[str, Dict[str, Union[int, bool]]]) -> None:
     Returns:
     None
     """
-    with open('stats.json', 'w', encoding='utf-8') as file_users:
+    with open('users/stats.json', 'w', encoding='utf-8') as file_users:
         dump(stat, file_users, indent=4)
 
 
@@ -43,5 +43,5 @@ user: Dict[str, Union[int, bool]] = {
     'random_number': 0
 }
 
-users: Dict[str, Dict[str, Union[int, bool]]] = check_json_file('stats.json')
+users: Dict[str, Dict[str, Union[int, bool]]] = check_json_file('users/stats.json')
 users_top: List = []

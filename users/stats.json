@@ -16,8 +16,8 @@
     "recidive13": {
         "game": false,
         "number_attempts": 5,
-        "number_wins": 2,
-        "number_games": 4,
-        "random_number": 50
+        "number_wins": 3,
+        "number_games": 5,
+        "random_number": 9
     }
 }

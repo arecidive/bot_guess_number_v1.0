@@ -12,7 +12,7 @@ def read_text_information() -> Dict[str, str]:
     Returns:
     Dict[str, str]: A dictionary with the contents of the JSON file.
     """
-    with open('texts.json', 'r', encoding='utf-8') as file:
+    with open('additional/texts.json', 'r', encoding='utf-8') as file:
         text: Dict[str, str] = load(file)
     return text
 

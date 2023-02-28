@@ -2,11 +2,10 @@ from aiogram import Dispatcher, Bot
 from aiogram.types import Message
 from aiogram.filters import Command, Text
 from random import randint
-from bot_text import texts
 from typing import Tuple
 from requests import get, Response
-from bot_text import *
-from bot_info_about_user import *
+from additional.bot_text import texts
+from users.bot_info_about_user import *
 
 
 def cats_photos() -> str:
