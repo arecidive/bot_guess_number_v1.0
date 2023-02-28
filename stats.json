@@ -1,0 +1,23 @@
+{
+    "r4cc00nize": {
+        "game": false,
+        "number_attempts": 3,
+        "number_wins": 1,
+        "number_games": 6,
+        "random_number": 80
+    },
+    "sobasya": {
+        "game": false,
+        "number_attempts": 3,
+        "number_wins": 2023,
+        "number_games": 10,
+        "random_number": 37
+    },
+    "recidive13": {
+        "game": false,
+        "number_attempts": 5,
+        "number_wins": 2,
+        "number_games": 4,
+        "random_number": 50
+    }
+}
